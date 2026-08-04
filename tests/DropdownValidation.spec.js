@@ -91,7 +91,5 @@ test('DropdownValidation', async ({ page }) => {
         await countryDropdown.inputValue()
     );
 
-
-
     await page.waitForTimeout(5000);
 })
