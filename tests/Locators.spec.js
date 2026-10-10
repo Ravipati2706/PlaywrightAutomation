@@ -10,16 +10,21 @@ test('Locators', async ({ page }) => {
 
     // Fill in the username fields using CSS selectors
     // await page.locator('#username').fill('student');
+    //await page.type('#username', 'student');
     await page.fill('#username', 'student');
 
-    // Fill in the password fields using CSS  and xpathselectors
-    //await page.locator('#password').fill('Password123');
+    /* Fill in the password fields using CSS  and xpathselectors
+   await page.locator('#password').fill('Password123'); */
+
     await page.fill("//input[@id='password']", 'Password123');
+
     // Click on the "Submit" button using a CSS selector
     await page.locator('#submit').click();
 
+  /*   Veriffy Logout link is visible after loginā */
     const logoutLink = await page.locator("//a[normalize-space()='Log out']");
-    console.log('Logout link is visible: ' + await logoutLink.isVisible());
+    await expect(logoutlink).toBeVisible(); 
+    //console.log('Logout link is visible: ' + await logoutLink.isVisible());
 
     //Finding how many links are there on the page using CSS
     const links = await page.$$('a');
