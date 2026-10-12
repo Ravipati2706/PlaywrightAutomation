@@ -1,3 +1,7 @@
+ /* To Handle this hidden elements in dynamic dropdowns like redbus we have one catch that 
+inspect the page and go to selectors hub and click on settings option on the right side and go to ignore list option
+and uncheck the option called "Content script injected by extensions" */
+
 const { test, expect } = require('@playwright/test')
 
 test('HiddenDropdownElementsValidation', async ({ page }) => {

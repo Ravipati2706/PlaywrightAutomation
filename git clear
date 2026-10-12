@@ -1,0 +1,15 @@
+[33m23afd55[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m updated scripts
+[33m90a9bb6[m Added record video traceview
+[33mda613df[m added hook grouping screenshot scripts
+[33mdf26901[m added mouse hover actions and keyboard actions file upload scripts
+[33mc732ef5[m added mouse hover action scripts
+[33m41d2609[m Added datepicker and Mouseover action scripts
+[33md32299c[m Added Hidden frames and webtable handling scripts
+[33m5052af5[m added dropdown alerts frames handling scripts
+[33m23bc813[m Added new multidropdown validation script
+[33mcb86573[m added dropdown practice script
+[33m7db2fec[m Added checkboxes script
+[33me1bccb9[m added inputbox and radiobutton validation scripts
+[33m3eaf289[m added assertins script
+[33m2a3c1f6[m Added new locators built in script
+[33m58dba98[m Initial Playwright Automation Framework
